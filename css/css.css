@@ -819,25 +819,25 @@ img {
 
 .icon-in{
     display: inline-block;
-    background-image: url("inst.png");
+    background-image: url("\\inst.png");
     background-repeat: no-repeat;
 }
 
 .icon-tw{
     display: inline-block;
-    background-image: url("tg.png");
+    background-image: url("\\tg.png");
     background-repeat: no-repeat;
 }
 
 .icon-vk{
     display: inline-block;
-    background-image: url("vk.png");
+    background-image: url("\\vk.png");
     background-repeat: no-repeat;
 }
 
 .icon-profile{
     display: inline-block;
-    background-image: url("gost.png");
+    background-image: url("\\gost.png");
     background-repeat: no-repeat;
 }
 
@@ -876,7 +876,7 @@ img {
 .column{
     display: inline-block;
     background-color: gray;
-    background-image: url("123.png");
+    background-image: url("\\123.png");
     background-repeat: no-repeat;
     text-align: left;
     background-size: contain;
@@ -920,13 +920,13 @@ footer{
 
 
 .mts{
-    background-image: url("image3.svg");
+    background-image: url("\\image3.svg");
     background-repeat: no-repeat;
 
 }
 
 .life{
-    background-image: url("image4.svg");
+    background-image: url("\\image4.svg");
     background-repeat: no-repeat;
 
 }

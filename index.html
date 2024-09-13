@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KinoJam</title>
+    <link rel="stylesheet" href="css/css.css">
+    <script defer src="trpo.js"></script>
+    <script src="js/jquery-3.7.1.min.js"></script>
+    
+</head>
+<body>
+    <nav class="navigator">
+        <a href="index.html" class="logo">
+            <img src="Лого.svg" alt="logo">
+        </a>
+        <ul class="header-list">
+            <li class="header-list-item"><a href="#">Бронирование</a></li>
+            <li class="header-list-item"><a href="#Kino">Кино</a></li>
+            <li class="header-list-item"><a href="#news">Новости</a></li>
+            <li class="header-list-item"><a href="#onas">О нас</a></li>
+            <li class="header-list-item"><a href="registration.php" id="registration">Регистрация</a></li>
+        </ul>
+        <div class="icons">
+            <a href="https://www.instagram.com/jamalbenderusss/" target="_blank" class="icon-in">
+            </a>
+            <a href="https://twitter.com/?lang=ru" target="_blank" class="icon-tw">
+            </a>
+            <a href="https://vk.com/feed" target="_blank" class="icon-vk" >
+            </a>
+            <a href="/profile.php" class="icon-profile">
+            </a>
+        </div>
+    </nav>
+    <div class="main-image">
+        <img src="Rectangle 180.png" alt="Avatar">
+    </div>
+    <div class="container">
+    <div class="container" id="Kino">
+        <h2 class="title" >Сегодня в кино</h2>
+        <div class="days" >
+            <div class="kinotheatres-1">    
+                <select name="kinotheatres" id="theatre-select" class="burger-menu">
+                    <option value="">Кинотеатр</option>
+                    <option value="1">Кинотеатр "Октябрь"</option>
+                    <option value="2">Кинотеатр "Восток"</option>
+                    <option value="3">Кинотеатр "Космос"</option>
+                    <option value="4">Кинотеатр "Красная звезда"</option>
+                    <option value="5">Молодежный центр</option>
+                </select>
+            </div>
+            <ul class="days-list">
+                <li class="days-list-item"  tabindex="1">
+                    <span class="t1">чт</span>
+                    <span class="t2">19</span>
+                    <span class="t3">октября</span>
+                </li>
+                <li class="days-list-item"   tabindex="2">
+                    <span class="t1">пт</span>
+                    <span class="t2">20</span>
+                    <span class="t3">октября</span>
+                </li>
+                <li class="days-list-item"   tabindex="3">
+                    <span class="t1">сб</span>
+                    <span class="t2">21</span>
+                    <span class="t3">октября</span>
+                </li>
+                <li class="days-list-item"  tabindex="4">
+                    <span class="t1">вс</span>
+                    <span class="t2">22</span>
+                    <span class="t3">октября</span>
+                </li>
+                <li class="days-list-item"  tabindex="5">
+                    <span class="t1">пн</span>
+                    <span class="t2">23</span>
+                    <span class="t3">октября</span>
+                </li>
+                <li class="days-list-item"  tabindex="6">
+                    <span class="t1">вт</span>
+                    <span class="t2">24</span>
+                    <span class="t3">октября</span>
+                </li>
+                <li class="days-list-item" tabindex="7">
+                    <span class="t1">ср</span>
+                    <span class="t2">25</span>
+                    <span class="t3">октября</span>
+                </li>
+            </ul>
+        </div> 
+        <div class="films-list">
+
+        </div>
+        </div>
+        <h2 class="title">Скоро в кино</h2>
+        <div class="new-films-list">
+            
+        </div>
+        <h2 class="title" id="news">Новости</h2>
+        <ul class="news-list">
+            <li class="column">
+                <ul class="table1">
+                    <li class="news-list-item">
+                        <p>В репертуаре возможны изменения!</p>
+                    </li>
+                </ul>
+            </li>
+            <li class="column">
+                <ul class="table2">
+                    <li class="news-list-item">
+                        <p>В репертуаре возможны изменения!</p>
+                    </li>
+                </ul>
+            </li>
+            <li class="column">
+                <ul class="table3">
+                    <li class="news-list-item">
+                        <p>В репертуаре возможны изменения!</p>
+                    </li>
+                </ul>
+            </li>
+            <li class="column">
+                <ul class="table4">
+                    <li class="news-list-item">
+                        <p>В репертуаре возможны изменения!</p>
+                    </li>
+                </ul>
+            </li>
+        </ul>
+        <h2 class="title" id="onas">О нас</h2>
+        <div class="group">    
+                <div class="images">
+                    <img src="1.jpg" alt="1" class="photo-kino">
+                </div>
+                    <span class="text"><b >Регион:</b>Гродно</span>
+                    <span class="text"><b >Адрес:</b>ул. Поповича, 3</span>
+                    <span class="text"><b >Телефон кассы:</b>+375(152)-601-752</span>
+                    <span class="text"><b >Автоответчик:</b>+375(152)-601-920</span> 
+                    <span class="text"><b >Директор:</b>Попков Виктор Николаевич</span>
+                    <span class="text"><b >Количество залов:</b>3</span>
+                    <span class="text"><b >Дата открытия:</b>01/01/1987</span>
+                    <span class="text"><b >Бар:</b>Кино-бар "CinemaCity"</span>
+                    <span class="text"><b >Ассортимент бара:</b>кофе, попкорн, алкоголь и пр. (кроме горячих блюд)</span>
+                    <span class="text"><b >Дополнительная информация:</b></span>
+                    <span class="text">* - киносеанс с организацией предсеансового мероприятия стоимостью 0р. 10к.
+                    Внимание! По техническим причинам оплатить стоимость киносеанса посредством данного сайта без оплаты услуги "предсеансовое мероприятие" временно не представляется возможным. Оплатить билеты на киносеанс без указанной услуги можно только в кассе кинотеатра. Заранее приносим свои извинения за доставленные неудобства.</span>
+</div>
+</div>
+    <footer>
+        <img src="Лого.svg" class="logo-1" alt="logo">
+        <p class="footer-1">ООО “KinoJam” 2023-н.в. Гродно, ул. Фолюш, 
+            50УНП: 156131516
+            выдан 21.09.2023 Гродненским горисполкомом</p>
+            <div class="data">
+                <p class="mts"> +375 (25) 679-69-14</p>
+                <p class="life"> +375 (25) 228-80-63</p>
+                <p class="mail"> artem.kostyuk.2015@inbox.ru</p>
+            </div>
+            <div class="time-of-work"><p class="p1">Время работы:</p>
+                <p class="p2">пн-пт:8:00-00:00</p>
+                <p class="p3">сб-вс:10:00-23:00</p>
+            </div>
+        </footer>
+    <div class="overlay" id="overlay-film-info">
+    </div>
+</html>

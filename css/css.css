@@ -1,0 +1,1062 @@
+html {
+    box-sizing: border-box;
+}   
+
+body{
+    background-color: #100E19;
+    color: #CACACA
+}
+
+ul {
+    List-style-type: none;
+    color: #CACACA
+} 
+a{
+    text-decoration: none;
+    color: #CACACA
+}
+
+.navigator{
+    display: flex;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+ }
+
+.main-image {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.container {
+    text-align: center;
+}
+
+.title{
+    font-size: 2.5vw;
+    margin-bottom: 3%;
+    text-align: center;
+}
+
+.days{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.days-list{
+    display:flex;
+    flex-wrap: wrap;
+}
+
+.days-list-item:hover{
+    background-color: #4b4b4b;
+    cursor: pointer;
+
+}
+
+.dignitos:focus{
+    background-color: #4b4b4b;
+    cursor: pointer;
+}
+
+.activebtn {
+    background-color: #4b4b4b;
+}
+
+.days-list-item:last-child{
+    margin-right: 0;
+}
+
+.t1{
+    font-size: 10px;
+    font-weight: 700;
+}
+
+.t2{
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.t3{
+    font-size: 15px;
+    font-weight: 700;
+}
+
+@media screen and (max-width:767px) {      /* ДЛЯ Телефона*/
+    
+    * {
+        box-sizing: inherit;
+        /* font-size: 24px; */
+        font-family: Regular;
+        color: #aaa;
+        margin: 0;
+        padding: 0;
+    }
+    
+    .main-image {
+        text-align: center;
+        margin-bottom: 1%;
+    }
+
+    .group{
+        width: 90%;
+        margin: auto;
+        margin-bottom: 35px;
+    }
+
+    .group::after{
+        content: "";
+        display: table;
+        clear: both;
+    }
+    
+    .photo-kino{
+        width: 45%;
+        float: left;
+    }
+    
+    b{
+        font-weight: 600;
+        font-size: 1.4vw;
+        text-decoration: underline;
+        padding-right: 1%;
+    }
+
+    .text{
+        float: left;
+        display: inline;
+        width: 55%;
+        text-align: left;
+        padding-left: 1%;
+        font-size:1.5vw;
+        margin-bottom: 0.3%;
+    }
+        
+    /* .icons{
+        width: 30%;
+    } */
+        
+    .logo{
+        margin: 4% 2% 15px 21px;
+        width: 5%;
+    }
+        
+    .header-list{
+    width: 95%;
+    text-align: center;
+    }
+
+    .header-list-item{ /*навигации */
+        visibility: hidden;
+    }
+
+    .icon-in{
+        visibility: hidden;
+    }
+
+    .icon-tw{
+        visibility: hidden;
+    }
+
+    .icon-vk{
+        visibility: hidden;
+
+    }
+
+    .icon-profile{
+        visibility: hidden;
+    }
+
+    .days-list-item{  /*Кнопки дней недели */ 
+        margin-right: 10px;
+        margin-bottom: 6%;
+        width: 6vw;
+        height: 5vw;
+        
+    }
+    
+    .title{
+        font-size: 3vw;
+    }
+
+    .t1{
+        font-size: 1.2vw;
+        font-weight: 700;
+    }
+        
+    .t2{
+        font-size: 1.6vw;
+        font-weight: 700;
+    }
+        
+    .t3{
+        font-size: 1.6vw;
+        font-weight: 700;
+    }
+
+    .kinotheatres-1{
+        width: 30%;
+    }
+
+    .burger-menu{
+        max-width:100%;
+        padding-left: 15px;
+        right: 5%;
+        bottom: 15px;
+        background-position-x:calc(100% - 10px);
+        background-size: 10%;
+        top: 7%;
+        font-size: 1.6vw;
+        color: #aaa;
+    }
+
+    option{
+        font-size: 1.6vw;
+    }
+
+    .films-list{  /*Фильмы */ 
+        width: 90%;
+    }
+
+    .films-list-item{
+        width: 250px;
+    }
+
+    .film-image{
+        width: 70%;
+    }
+    
+    .film-name{
+        font-size: 2vw;
+    }
+
+    .new-films-list{    /*новые фильмы */ 
+        padding-top: 20px;
+        width: 70%;
+        border-radius: 15px;
+        margin-bottom: 30px;
+    }
+
+    .film-cost{  /*Цена*/ 
+        margin: 0 auto;
+        width: 50%;
+        height: calc(100%-30px);
+        font-size: 2vw;
+        font-weight: 500;
+    }
+
+    .news-list{   /*Новости */ 
+        width:80%;
+    }
+
+    .column{
+        width: 40%;
+        padding-top: 27%;
+        padding-left: 10px;
+        margin-right: 5%;
+        margin-bottom: 3%;
+    }
+
+    .column p{
+        font-size: 1.8vw;
+    }
+
+    .footer-1{
+        width: 40%;
+    }
+        
+    .data{
+        margin-left: 4%;
+        width: 50%;
+    }
+        
+    .mts{
+        width: 80%;
+        padding-left: 30%;
+        height: 40%;
+        padding-top: 4%;
+        background-size: 40%;
+    }
+
+    .time-of-work{
+        width: 35%;
+        margin-right: 7%;
+    }
+
+    .p1,.p2,.p3{
+        margin-bottom: 10px;
+    }
+
+    .life{
+        width: 80%;
+        padding-left: 30%;
+        padding-top: 3%;
+        height: 45%;
+        background-size: 40%;
+    }
+
+    .logo-1{
+        margin: 0 4% ;
+        width:30px;
+        height: 32px;
+    }
+
+    p, .mts,.life,.mail{
+        font-size: 1.6vw;
+        
+    }
+
+    .info{
+        width: 70%;
+    }
+
+    .avatar {
+        width: 20%;
+        float: left;
+    }
+
+}
+
+@media screen and (min-width: 768px) and (max-width:1279px) {      /* ДЛЯ ПЛАНШЕТА*/
+    
+    * {
+        box-sizing: inherit;
+        /* font-size: 24px; */
+        font-family: Regular;
+        color: #aaa;
+        margin: 0;
+        padding: 0;
+    }
+
+    .info {
+        width: 55%;
+    }
+    
+    .group{
+        width: 80%;
+        margin: auto;
+        margin-bottom: 35px;
+    }
+
+    .group::after{
+        content: "";
+        display: table;
+        clear: both;
+    }
+    
+    .photo-kino{
+        width: 45%;
+        float: left;
+    }
+    
+    .text{
+        float: left;
+        display: inline;
+        width: 55%;
+        text-align: left;
+        padding-left: 1%;
+        font-size:1.2vw;
+        margin-bottom: 0.3%;
+    }
+        
+    .icons{
+        width: 40%;
+    }
+        
+    .logo{
+        margin: 25px 2% 15px 21px;
+        width: 7%;
+    }
+        
+    .header-list{
+        width: 95%;
+    text-align: center;
+    }
+
+    .header-list-item{ /*навигации */
+    margin-top: 40px;
+    margin-right: 5%;
+    font-size: 2vw;
+    }
+
+    .icon-in{
+        margin-top: 28px;
+        width: 50px;
+        height: 52px;
+
+    }
+
+    .icon-tw{
+        margin-top: 28px;
+        width: 50px;
+        height: 52px;
+
+    }
+
+    .icon-vk{
+        margin-top: 15px;
+        width: 60px;
+        height: 52px;
+        background-size: 100%;
+    }
+
+    .icon-profile{
+        margin-top: 25px;
+        width: 60px;
+        height: 55px;
+        background-size: 90%;
+    }
+
+    .days-list-item{  /*Кнопки дней недели */ 
+        margin-right: 10px;
+        margin-bottom: 30px;
+        width: 6vw;
+        height: 5vw;
+    }
+
+    .t1{
+        font-size: 1vw;
+        font-weight: 700;
+    }
+        
+    .t2{
+        font-size: 1.4vw;
+        font-weight: 700;
+    }
+        
+    .t3{
+        font-size: 1.4vw;
+        font-weight: 700;
+    }
+
+    .burger-menu{
+        max-width:90%;
+        padding-left: 15px;
+        color: #aaa;
+        right: 5%;
+        bottom: 15px;
+        background-position-x:calc(100% - 10px);
+        background-size: 10%;
+        top: 8px;
+    }
+
+    .films-list{  /*Фильмы */ 
+        width: 80%;
+    }
+
+    .film-image{
+        width: 200px;
+       height: 310px;
+    }
+    
+    .films-list-item {
+        margin-right: 10px;
+    }
+
+    .film-name {
+        font-size: 14px;
+    }
+
+
+    .new-films-list .films-list-item{
+        width: 35%;
+
+    }
+
+    .new-films-list{    /*новые фильмы */ 
+        padding-top: 20px;
+        width: 70%;
+        border-radius: 15px;
+        margin-bottom: 30px;
+    }
+
+    .film-cost{  /*Цена*/ 
+        margin: 0 auto;
+        width: 50%;
+        height: calc(100%-70px);
+        font-size: 18px;
+        font-weight: 450;
+    }
+
+    .news-list{   /*Новости */ 
+        width:80%;
+    }
+
+    .column{
+        width: 40%;
+        padding-top: 27%;
+        padding-left: 10px;
+        margin-right: 30px;
+        margin-bottom: 30px;
+    }
+
+    .column p{
+        font-size: 1.8vw;
+    }
+
+    .footer-1{
+        width: 40%;
+    }
+        
+    .data{
+        margin-left: 8%;
+        width: 50%;
+    }
+        
+    .mts{
+        width: 80%;
+        font-size: 20px;
+        padding-left: 30%;
+        height: 45%;
+        background-size: 40%;
+        padding-top: 10px;
+    }
+
+
+    .time-of-work{
+        width: 35%;
+        margin-right: 60px;
+    }
+
+    .p1,.p2,.p3{
+        margin-bottom: 10px;
+        margin-right: 15px;
+    }
+
+    .life{
+        width: 80%;
+        font-size: 20px;
+        padding-left: 30%;
+        height: 45%;
+        background-size: 40%;
+        padding-top: 10px;
+    }
+
+    .logo-1{
+        margin: 10px 40px ;
+        width:50px;
+        height: 50px;
+    }
+
+    p, .mts,.life,.mail{
+        font-size: 1.6vw;
+        
+    }
+
+   
+
+    b{
+        font-weight: 600;
+        font-size: 1.1vw;
+        text-decoration: underline;
+        padding-right: 1%;
+    }
+
+    .avatarka {
+        width: 20%;
+        float: left;
+    }
+
+}
+
+@media screen and (min-width: 1280px) {      /* ДЛЯ ПК*/
+    
+    * {
+        box-sizing: inherit;
+        font-size: 24px;
+        font-family: Regular;
+        margin: 0;
+        padding: 0;
+        }
+
+        b{
+            font-weight: 600;
+            font-size: 1.1vw;
+            text-decoration: underline;
+            padding-right: 1%;
+        }
+    
+    .group{
+        width: 80%;
+        margin: auto;
+        margin-bottom: 35px;
+    }
+    
+    .film-image {
+        height: 400px;
+        width: 300px;
+    }
+
+    .group::after{
+        content: "";
+        display: table;
+        clear: both;
+    }
+    
+    .photo-kino{
+        width: 40%;
+        float: left;
+    }
+    
+    .text{
+        float: left;
+        display: inline;
+        width: 60%;
+        text-align: left;
+        padding-left: 1%;
+        font-size:1vw;
+        margin-bottom: 0.3%;
+    }
+
+
+    .t1{
+        font-size: 10px;
+        font-weight: 700;
+    }
+        
+    .t2{
+        font-size: 20px;
+        font-weight: 700;
+    }
+        
+    .t3{
+        font-size: 15px;
+        font-weight: 700;
+    }
+    
+    .icons{
+        width: 40%;
+    }
+
+    .logo{
+        margin: 30px 5% 30px 80px;
+        width: 15%;
+    }
+    
+    .header-list{
+        width: 80%;
+    }
+
+    .header-list-item{ /*навигации */
+    margin-top: 45px;
+    margin-right: 5%;
+    }
+
+    .film-name{
+        font-size: 20px;
+        width: 300px;
+    }
+
+    .icon-in{
+        padding-left: 13%;
+        margin-top: 28px;
+        width: 50px;
+        height: 45px;
+    }
+
+    .icon-tw{
+        padding-left: 13%;
+        margin-top: 28px;
+        width: 50px;
+        height: 45px;
+    }
+
+    .icon-vk{
+        padding-left: 13%;
+        margin-top: 15px;
+        width: 60px;
+        height: 53px;
+    }
+
+    .icon-profile{
+        margin-left: 35%;
+        margin-top: 25px;
+        width: 60px;
+        height: 53px;
+    }
+
+    .days-list-item{  /*Кнопки дней недели */ 
+        margin-right: 20px;
+        margin-bottom: 30px;
+        width: 65px;
+        height: 60px;
+    }
+
+    .films-list{  /*Фильмы */ 
+        margin-right: auto;
+        margin-left: auto;
+        width: 95%;
+    }
+
+    .new-films-list{    /*новые фильмы */ 
+        padding-top: 20px;
+        
+        width: 80%;
+        border-radius: 15px;
+        margin-bottom: 30px;
+        
+    }
+
+    .film-cost{  /*Цена*/ 
+        margin: 0 auto;
+        width: 47%;
+    }
+
+    .news-list{   /*Новости */ 
+        width:80%;
+    }
+
+    .column{
+        width: 37%;
+        padding-top: 25%;
+        padding-left: 10px;
+        margin-right: 30px;
+        margin-bottom: 30px;
+    }
+    .footer-1{
+        width: 29%;
+    }
+        
+    .data{
+        margin-left: 13%;
+        width: 35%;
+    }
+        
+    .mts{
+        font-size: 20px;
+        width: 85%;
+        height: 38%;
+        padding-left: 30%;
+        padding-top: 10px;
+    }
+
+    .time-of-work{
+        width: 35%;
+        margin-right: 20px;
+    }
+
+    .p1,.p2,.p3{
+        margin-bottom: 10px;
+        margin-right: 15px;
+    }
+
+    .burger-menu{
+        max-width: 250px;
+        padding-left: 15px;
+        right: 65px;
+        color: #aaa;
+        bottom: 15px;
+        background-position-x:calc(100% - 10px);
+        top: 25px;
+    }
+
+    .life{
+        width: 85%;
+        font-size: 20px;
+        height: 35%;
+        padding-left: 30%;
+        padding-top: 10px;
+    }
+
+    .new-films-list .films-list-item .film-name{
+        font-size:16px;
+        width: 100%;
+    }
+
+    .new-films-list .films-list-item{
+        width: 20%;
+    }
+
+    .films-list-item{
+        
+        margin-right: 3.5%;
+    }
+
+    .logo-1{
+        margin: 10px 70px ;
+        width:63px;
+        height: 48px;
+    }
+
+    .mail{
+        font-size: 20px;
+    }
+
+    .title{
+        font-size: 28px;
+    }
+
+    .info {
+        width: 55%;
+    }
+
+    .avatarka {
+        width: 20%;
+        float: left;
+    }
+
+}
+
+.icons{
+    display: flex;
+    flex-direction:row;
+    flex-wrap: nowrap;
+    align-items: center;
+}
+
+.logo{
+    display: inline-block;
+}
+
+.header-list-item{  /*навигации */ 
+    display: inline-block;
+    text-align: left;
+}
+
+.icon-in{
+    display: inline-block;
+    background-image: url("inst.png");
+    background-repeat: no-repeat;
+}
+
+.icon-tw{
+    display: inline-block;
+    background-image: url("tg.png");
+    background-repeat: no-repeat;
+}
+
+.icon-vk{
+    display: inline-block;
+    background-image: url("vk.png");
+    background-repeat: no-repeat;
+}
+
+.icon-profile{
+    display: inline-block;
+    background-image: url("gost.png");
+    background-repeat: no-repeat;
+}
+
+.days-list-item{  /*Кнопки дней недели */ 
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+}
+
+.films-list{  /*Фильмы */ 
+    display: inline-block;
+}
+
+.new-films-list{    /*новые фильмы */ 
+    display: inline-block;
+    border-style:solid;
+    border-color:#EA003D;
+}
+
+#last-film{
+    margin: 0;
+}
+
+.film-cost{  /*Цена*/ 
+    color: #CACACA;
+    border-radius: 15px;
+    background-color:#EA003D;
+    cursor: pointer;
+}
+
+.news-list{   /*Новости */ 
+    display: inline-block;
+    
+}
+
+.column{
+    display: inline-block;
+    background-color: gray;
+    background-image: url("123.png");
+    background-repeat: no-repeat;
+    text-align: left;
+    background-size: contain;
+    word-break: break-all;
+    overflow:hiden;
+}
+
+.films-list-item{
+    display: inline-block;
+    margin-bottom: 25px;
+}
+
+.film-name{
+    color: #CACACA;
+    margin: 0 auto 10px;
+
+}
+
+
+.column p{
+    color: #000;
+
+}
+
+footer{
+    display: flex;
+    text-align: left;
+    width: 100%;
+}
+
+.time-of-work{
+    display: inline-block;
+    text-align: end;
+
+}
+
+.data{
+    display: inline-block;
+    text-align: left;
+}
+
+
+.mts{
+    background-image: url("image3.svg");
+    background-repeat: no-repeat;
+
+}
+
+.life{
+    background-image: url("image4.svg");
+    background-repeat: no-repeat;
+
+}
+
+.mail{
+    text-align: left;
+}
+
+.kinotheatres-1{
+    display: inline-block;
+    position: relative;
+}
+
+.burger-menu{
+    background-color: #100E19;
+    background-position-y: center;
+    background-image: url("data:image/svg+xml,%3Csvg class='ast-arrow-svg' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' version='1.1' x='0px' y='0px' width='26px' height='16.043px' fill='%234B4F58' viewBox='57 35.171 26 16.043' enable-background='new 57 35.171 26 16.043' xml:space='preserve' %3E%3Cpath d='M57.5,38.193l12.5,12.5l12.5-12.5l-2.5-2.5l-10,10l-10-10L57.5,38.193z'%3E%3C/path%3E%3C/svg%3E");
+    background-repeat: no-repeat;
+    -webkit-appearance: none;
+    border-radius: 5px;
+    position: relative;
+}
+
+.overlay {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+.modal-film-info{
+    display: none;
+}
+
+.modal {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #100E19;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    width: 45%;
+}
+
+#close-modal {
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 20px;
+    
+}
+
+.line {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 7px;
+}
+
+.modal-text{
+    width: 40%;
+    text-align: left;
+}
+
+.modal-input{
+    width: 60%;
+}
+
+.modal-choose{
+    width: 60%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.sex{
+    display: flex;
+}
+
+.sex p {
+    padding-right: 5px;
+}
+
+.line input {
+    color: #000;
+}
+
+.info {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #100E19;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.info-film{
+    display:flex;
+    flex-wrap: wrap;
+    align-content: flex-start;
+}
+
+.info-film p{
+    text-align: left;
+    width: 100%;
+    font-size: 18px;
+}
+
+.film{
+    display: flex;
+}
+
+.story{
+    margin-top: 3%;
+    margin-bottom: 3%;
+}
+
+.none {
+    display:none;
+}
+
+.active {
+    display: block;
+}
+
